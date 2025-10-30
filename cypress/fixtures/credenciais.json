@@ -1,0 +1,14 @@
+{
+    "valida": {
+        "usuario": "leader1",
+        "senha": "password"
+    },
+
+    "invalida": {
+        "usuario": "leader1",
+        "senha": "1234"
+    }
+
+
+
+}
