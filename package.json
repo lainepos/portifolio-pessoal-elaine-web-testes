@@ -1,0 +1,23 @@
+{
+  "name": "portifolio-pessoal-elaine-web-testes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lainepos/portifolio-pessoal-elaine-web-testes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lainepos/portifolio-pessoal-elaine-web-testes/issues"
+  },
+  "homepage": "https://github.com/lainepos/portifolio-pessoal-elaine-web-testes#readme",
+  "devDependencies": {
+    "cypress": "^14.5.3"
+  }
+}
