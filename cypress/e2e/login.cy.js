@@ -1,6 +1,6 @@
 describe('Login', () => {
   beforeEach(() => {
-     cy.visit('http://localhost:4000')
+     cy.visit('/')
   })
 
   it('Validar login com dados válidos para permitir acesso a aplicação escala ministerial', () => {
@@ -10,7 +10,7 @@ describe('Login', () => {
     })
     
     cy.get('#login-button').click()
-    cy.screenshot('apos-login-com-dados-validos')
+   // cy.screenshot('apos-login-com-dados-validos')
 
     //Assert valida que o login foi efetuado com sucesso
     cy.contains('Escala Ministerial').should('be.visible')
@@ -25,6 +25,6 @@ describe('Login', () => {
 
     //Assert valida que o login foi efetuado com sucesso
     cy.get('#login-error').should('have.text', '{"message":"Um erro ocorreu"}')
-    cy.screenshot('apos-login-com-dados-invalidos')
+   // cy.screenshot('apos-login-com-dados-invalidos')
   })
 })
