@@ -2,6 +2,8 @@
 
 Este repositório contém os testes automatizados end-to-end (E2E) da aplicação **Escala Ministerial**, utilizando o framework **Cypress** para validar as principais funcionalidades do sistema.
 
+> 📖 **Documentação completa**: Para informações detalhadas sobre o projeto, escopo, arquitetura e especificações técnicas, consulte nossa [**Wiki do projeto**](https://github.com/lainepos/portifolio-pessoal-elaine-web-testes/wiki).
+
 ## Objetivo
 
 O objetivo deste projeto é garantir a qualidade e funcionamento correto da aplicação Escala Ministerial através de testes automatizados que simulam o comportamento real do usuário, validando:
@@ -195,8 +197,9 @@ Este projeto de testes trabalha em conjunto com:
 ## Casos de teste detalhados
 
 Para casos de teste mais detalhados, consulte:
-- **Planilha**: [Google Sheets - Casos de Teste](https://docs.google.com/spreadsheets/d/10ZKafG-q_R8GDS9wyyPhxHKUMcKZc6JknlgHDwsWu0k/edit?gid=911841702#gid=911841702)
-- **Documentação**: `docs/TestPlan.md` (se disponível)
+- **📖 Wiki do projeto**: [Documentação completa](https://github.com/lainepos/portifolio-pessoal-elaine-web-testes/wiki) - Escopo, arquitetura e especificações técnicas
+- **📊 Planilha**: [Google Sheets - Casos de Teste](https://docs.google.com/spreadsheets/d/10ZKafG-q_R8GDS9wyyPhxHKUMcKZc6JknlgHDwsWu0k/edit?gid=911841702#gid=911841702)
+- **📄 Documentação**: `docs/TestPlan.md` (se disponível)
 
 ## Bugs e Issues
 
